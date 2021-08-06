@@ -93,8 +93,8 @@ Pa poder hacer esto falta la variable subpacto uwu
 */
 
 
-/* tabs ejemplos
-*/
+***tabs ejemplos
+ssc install xtable
 tab derecha electo
 
 
@@ -123,27 +123,3 @@ xtable distrito lista if derecha==1, c(sum votoval) col row
 
 xtable distrito derecha, c(sum votoval) con col row
 
-
-*****Workspace stats 
-
-table comuna, c(sum votos)
-table lista comuna, c(sum votos)
-
-table sigla comuna if chv==1, c(sum votos) row col
-
-
-table lista comuna if chv==1, c(sum votos) row col
-
-table lista comuna if chv!=1, c(sum votos) row col
-
-table lista comuna , c(sum votos) row col
-
-table candidato if comuna=="PROVIDENCIA" & strpos(candidato, "VOTO"), c(sum votos)
-
-
-xtable lista comuna, c(sum votos) row col
-
-
-table comuna sigla if año==2016 & d8==1 & chv==1 , c(sum votos)
-
-table comuna lista if año==2016 & d8==1 , c(sum votos)

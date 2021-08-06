@@ -76,7 +76,7 @@ replace lista="PEV"   if lista=="XZ"
 replace lista="FA"    if lista=="XS"
 replace lista="CHD"   if lista=="M"
 
-replace lista="PSPPD"   if lista=="YW"a
+replace lista="PSPPD"   if lista=="YW"
 replace lista="PR"      if lista=="ZU"
 replace lista="DCCsPRO" if lista=="XU"
 
@@ -92,6 +92,9 @@ replace frentedigno=0 if strpos(partido, "FRENTE AMPLIO")
 Pa poder hacer esto falta la variable subpacto uwu
 */
 
+
+/* tabs ejemplos
+*/
 tab derecha electo
 
 

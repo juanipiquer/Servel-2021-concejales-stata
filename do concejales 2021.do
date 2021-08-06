@@ -1,9 +1,9 @@
 
 ****Manipulación bases 
-cd "/Users/juanpiqueralliende/Documents/Dropbox/Política/Docs y datos/Servel/5:2021"
+cd ""
 
 clear all
-import delimited "/Users/juanpiqueralliende/Documents/Dropbox/Política/Docs y datos/Servel/5:2021/Resutlados por mesa concejales.csv"
+import delimited "/Resutlados por mesa concejales.csv"
 
 
 *Tratamiento bases 2021
